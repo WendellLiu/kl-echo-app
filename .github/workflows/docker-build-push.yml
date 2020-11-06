@@ -23,6 +23,6 @@ jobs:
           image: kl-echo-app/kl-echo-app
           tag: latest 
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: ${{ github.actor }}
           password: ${{ secrets.CR_PAT }} 
       
