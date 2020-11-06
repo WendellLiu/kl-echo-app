@@ -20,7 +20,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v4
         name: Build & push Docker image
         with:
-          image: ${{ github.actor }}/kl-echo-app
+          image: kl-echo-app/kl-echo-app
           tag: latest 
           registry: ghcr.io
           username: ${{ github.actor }}
